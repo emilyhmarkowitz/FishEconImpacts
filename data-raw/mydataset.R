@@ -10,6 +10,7 @@ library(readxl)
 # ImplictPriceDeflator <- read_csv("data-raw/IPD2017.csv")
 # statereg_rec <- read_csv("data-raw/recstatecodes1.csv")
 statereg <- read_csv("data-raw/statereg.csv")
+<<<<<<< HEAD
 gdpdef_stfed <- read_csv("data-raw/gdpdef_stfed.csv")
 Imports_Species_2010 <- read_csv("data-raw/Imports_Species_2010.csv")
 Multipliers_Commercial <- read_csv("data-raw/Multipliers_Commercial.csv")
@@ -47,6 +48,10 @@ recstatecodes1<- read_csv("data-raw/recstatecodes1.csv")
 statecodes<- read_csv("data-raw/statecodes.csv")
 statereg<- read_csv("data-raw/statereg.csv")
 
+=======
+
+# pendulum <- read_csv("data-raw/pendulum data.csv")
+>>>>>>> baf9d3b005c2c787aa00eb464a5c3ff0b329b689
 # demographics <- read_excel("data-raw/Demographics.xlsx")
 
 # Data processing code here...
@@ -55,6 +60,7 @@ statereg<- read_csv("data-raw/statereg.csv")
 # Note that names are unquoted.
 # I like using overwrite = T so everytime I run the script the
 # updated objects are saved, but the default is overwrite = F
+<<<<<<< HEAD
 usethis::use_data(
   statereg,
   gdpdef_stfed,
@@ -93,6 +99,10 @@ usethis::use_data(
   statereg, # ImplictPriceDeflator, statereg_rec, 
   
   overwrite = T)
+=======
+usethis::use_data(statereg,# ImplictPriceDeflator, statereg_rec, 
+                  overwrite = T)
+>>>>>>> baf9d3b005c2c787aa00eb464a5c3ff0b329b689
 
 
 # usethis::use_data(mydataset, overwrite = TRUE)

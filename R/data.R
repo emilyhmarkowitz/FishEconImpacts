@@ -20,6 +20,7 @@
 #' @source \url{http://somewhere.important.com/}
 "statereg"
 
+<<<<<<< HEAD
 ##### Inflators#####
 
 #sinew::makeOxygen(obj = gdpdef_stfed, add_fields = "source")
@@ -57,12 +58,17 @@
 
 # sinew::makeOxygen(obj = IPD2017, add_fields = "source")
 #' @title DATASET_TITLE
+=======
+# sinew::makeOxygen(obj = ImplictPriceDeflator, add_fields = "source")
+#' @title ImplictPriceDeflator
+>>>>>>> baf9d3b005c2c787aa00eb464a5c3ff0b329b689
 #' @description DATASET_DESCRIPTION
 #' @format A data frame with 89 rows and 4 variables:
 #' \describe{
 #'   \item{\code{Year}}{double COLUMN_DESCRIPTION}
 #'   \item{\code{IPD}}{double COLUMN_DESCRIPTION}
 #'   \item{\code{2008 Base}}{double COLUMN_DESCRIPTION}
+<<<<<<< HEAD
 #'   \item{\code{2017 Base}}{double COLUMN_DESCRIPTION} 
 #'}
 #' @source \url{http://somewhere.important.com/}
@@ -320,6 +326,15 @@
 #######State Codes######
 #sinew::makeOxygen(obj = recstatecodes1, add_fields = "source")
 #' @title DATASET_TITLE
+=======
+#'   \item{\code{2017 Base}}{double COLUMN_DESCRIPTION}
+#'}
+#' @source \url{http://somewhere.important.com/}
+"ImplictPriceDeflator"
+
+# sinew::makeOxygen(obj = statereg_rec, add_fields = "source")
+#' @title statereg_rec
+>>>>>>> baf9d3b005c2c787aa00eb464a5c3ff0b329b689
 #' @description DATASET_DESCRIPTION
 #' @format A data frame with 25 rows and 5 variables:
 #' \describe{
@@ -327,6 +342,7 @@
 #'   \item{\code{state.name}}{character COLUMN_DESCRIPTION}
 #'   \item{\code{region.name}}{character COLUMN_DESCRIPTION}
 #'   \item{\code{region.no}}{double COLUMN_DESCRIPTION}
+<<<<<<< HEAD
 #'   \item{\code{state.abb}}{character COLUMN_DESCRIPTION} 
 #'}
 #' @source \url{http://somewhere.important.com/}
@@ -366,3 +382,9 @@
 "statereg"
 
 
+=======
+#'   \item{\code{state.abb}}{character COLUMN_DESCRIPTION}
+#'}
+#' @source \url{http://somewhere.important.com/}
+"statereg_rec"
+>>>>>>> baf9d3b005c2c787aa00eb464a5c3ff0b329b689
