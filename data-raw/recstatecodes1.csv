@@ -1,0 +1,26 @@
+state.no,state.name,region.name,region.no,state.abb
+0,United States,United States,0,US
+1,Alabama,Gulf of Mexico,9,AL
+2,Alaska,North Pacific,10,AK
+6,California,Pacific,7,CA
+9,Connecticut,New England,4,CT
+10,Delaware,Mid-Atlantic,5,DE
+13,Georgia,South Atlantic,6,GA
+15,Hawai`i,Western Pacific (Hawai`i),8,HI
+22,Louisiana,Gulf of Mexico,9,LO
+23,Maine,New England,4,ME
+24,Maryland,Mid-Atlantic,5,MD
+25,Massachusetts,New England,4,MA
+28,Mississippi,Gulf of Mexico,9,MI
+33,New Hampshire,New England,4,NH
+34,New Jersey,Mid-Atlantic,5,NJ
+36,New York,Mid-Atlantic,5,NY
+37,North Carolina,South Atlantic,6,NC
+41,Oregon,Pacific,7,OR
+44,Rhode Island,New England,4,RI
+45,South Carolina,South Atlantic,6,SC
+48,Texas,Gulf of Mexico,9,TX
+51,Virginia,Mid-Atlantic,5,VA
+53,Washington,Pacific,7,WA
+12,West Florida,Gulf of Mexico,7,WFL
+12,East Florida,South Atlantic,6,EFL

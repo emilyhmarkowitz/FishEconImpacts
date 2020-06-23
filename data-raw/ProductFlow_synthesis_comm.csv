@@ -1,0 +1,19 @@
+"Product flow for shrimp and non-shrimp fish and fish products: synthesis of basic data Source of fish, fish products","Destination of fish, fish products (percentage distribution) (Note 5) Primary processors",Secondary whole- salers/distributors,Foodservice/ restaurants,Groceries/ retail markets,"Exports (Notes 6, 7)",Final consumers,Total
+"Landings/harvesters: non-shrimp, non-bait",0.3,0.45,0.025,0.1,0.07,0.055,1
+Landings/harvesters: shrimp,0.5,0.275,0,0,0.2,0.025,1
+"Landings/harvesters: shrimp in LA, TX",0.25,0.45,0.026367076,0.1,0.07,0.103632924,1
+Landings/harvesters: bait,0,0.95,0,0,0,0.05,1
+"Landings/harvesters: All species in AL,MS",0.9,0.05,0.025,0.025,0,0,1
+Landings/harvesters: All species in Alaska,0.3,0.03,0.01,0.01,0.45,0.2,1
+"Landings/harvesters: All species in CT,FL,HI,LA,ME,NC,NJ,NY,RI,SC,TX",0.15,0.25,0.050962983,0.062239541,0.35,0.136797477,1
+Landings/harvesters: All species in US,0.45,0.4,0.025,0.04,0.05,0.035,1
+"Primary wholesalers/processors: non-shrimp, non-bait--US",0,0.513102636,0.160181491,0.25051977,0,0.076196103,1
+Primary wholesalers/processors: shrimp--US,0,0.099550272,0.519755011,0.377837271,0.002857446,0,1
+Primary wholesalers/processors: bait,0,0,0,0.25,0,0.75,1
+Primary wholesalers/processors: Alaska,,0.03,0.01,0.01,0.93,0.02,1
+Primary wholesalers/processors: States except Alaska,,0.3,0.1,0.15,0.45,0,1
+Secondary wholesalers/distributors--US,,,0.44,0.54,0.02,0,1
+Secondary wholesalers/distributors: Alaska,,,0.06,0.03,0.91,0,1
+Secondary wholesalers/distributors: States except Alaska,,,0.3,0.25,0.45,0,1
+Foodservice/restaurants,,,,,,1,1
+Groceries/retail markets,,,,,,1,1

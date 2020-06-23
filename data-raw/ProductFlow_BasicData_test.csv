@@ -1,0 +1,15 @@
+"Source of fish, fish products",Source,Primary whole- salers/processors,Secondary whole- salers/distributors,Foodservice/ restaurants,Groceries/ retail markets,Exports,Final consumers,Total
+Landings/harvesters (4),NY SeaGrant,0.15,0.63,0.04,0.1,0.06,0.02,1
+Landings/harvesters,VA model (3),0.63,0.32,0.01,0.04,0,0,1
+Average for non-shrimp,,,,,,,,0
+Landings/harvesters: shrimp (1),Walt Keithly,0.875,0.125,0,0,0,0,1
+Net imports,NY SeaGrant,0.101489834,0.421740888,0.026367076,0.1347994,0.315798785,0,1.000195984
+Aquaculture,NY SeaGrant,0.2,0.2,0.2,0.2,0.1,0.1,1
+Primary wholesalers/processors,NY SeaGrant,,0.4,0.15,0.2,0.23,0.02,1
+Primary wholesalers/processors,VA model (3),,0.188405271,0.050962983,0.062239541,0.698392205,0,1
+Average for non-shrimp,,,,,,,,0
+Primary wholesalers/processors: shrimp (2),Walt Keithly,,0.099550272,0.719755011,0.177837271,0.002857446,0,1
+Secondary wholesalers/distributors,NY SeaGrant,,,0.6,0.3,0.08,0.02,1
+Secondary wholesalers/distributors,VA model (3),0.24995268,,0.088493268,0.083680742,0.57787331,,1
+Foodservice/restaurants,NY SeaGrant,,,,,,1,1
+Groceries/retail markets,NY SeaGrant,,,,,,1,1
