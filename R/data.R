@@ -1,7 +1,3 @@
-# This goes in R/data.R
-# where you will add the documentation using roxygen.
-
-
 ##### Inflators#####
 
 #sinew::makeOxygen(obj = gdpdef_stfed, add_fields = "source")
