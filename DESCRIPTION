@@ -1,0 +1,13 @@
+Package: FishEconImpact
+Type: Package
+Title: NMFS’ Commercial Fishing, Recreation, and Aquaculture Socioeconomic Impact Model
+Version: 0.1.0
+Author: Emily Markowitz (emily.markowitz@noaa.gov)
+Description: Assists fisheries scientists and managers assess the impacts of changing fisheries. 
+    This tool is used to calculate the commercial fisheries impact numbers Fisheries Economics of the US report. 
+License: DOC NOAA NMFS OST
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+Depends: 
+    R (>= 2.10)

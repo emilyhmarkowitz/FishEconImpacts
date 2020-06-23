@@ -1,0 +1,23 @@
+# This goes in R/data.R
+# where you will add the documentation using roxygen.
+
+#sinew::makeOxygen(obj = statereg, add_fields = "source")
+#' @title statereg
+#' @description DATASET_DESCRIPTION
+#' @format A data frame with 25 rows and 10 variables:
+#' \describe{
+#'   \item{\code{State}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{State1}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{fips}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{Region}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{abbvst}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{abbvreg}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{xstate}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{xreg}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{State.no}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{Region.no}}{double COLUMN_DESCRIPTION}
+#'}
+#' @source \url{http://somewhere.important.com/}
+"statereg"
+
+

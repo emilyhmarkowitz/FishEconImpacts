@@ -1,0 +1,26 @@
+State.no,State,Region,Region.no
+1,Alabama,Gulf of Mexico,5
+2,Alaska,North Pacific,7
+5,California,Pacific,6
+7,Connecticut,New England,1
+8,Delaware,Mid-Atlantic,2
+10,East Florida,South Atlantic,4
+11,West Florida,Gulf of Mexico,5
+13,Georgia,South Atlantic,4
+14,Hawai`i,Western Pacific (Hawai`i),8
+21,Louisiana,Gulf of Mexico,5
+22,Maine,New England,1
+23,Maryland,Mid-Atlantic,2
+24,Massachusetts,New England,1
+27,Mississippi,Gulf of Mexico,5
+32,New Hampshire,New England,1
+33,New Jersey,Mid-Atlantic,2
+35,New York,Mid-Atlantic,2
+36,North Carolina,South Atlantic,4
+40,Oregon,Pacific,6
+42,Rhode Island,New England,1
+43,South Carolina,South Atlantic,4
+46,Texas,Gulf of Mexico,5
+49,Virginia,Mid-Atlantic,2
+50,Washington,Pacific,6
+98,"At-Sea Process, Pac.",Pacific,6
