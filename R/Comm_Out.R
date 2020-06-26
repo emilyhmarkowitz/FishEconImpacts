@@ -184,7 +184,7 @@ Comm_Out <- function(Comm.Catch.Clean,
       
     } else  { #if (Imports.Comm[iiii] %in% c("Imports", "With"))
       Imports.Species2 <-
-        Comm.Imports.Edit(
+        Comm_Imports_Edit(
           Imports.Species = Imports.Species[Imports.Species$Species %in% unique(Comm.VOL0$Species),],
           Imports.States = Imports.States[Imports.States$States %in% st,],
           st0 = as.character(st),

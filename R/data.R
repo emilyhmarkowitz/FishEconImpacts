@@ -33,7 +33,7 @@
 #' @source \url{http://somewhere.important.com/}
 "gdpdef_stfed"
 
-# sinew::makeOxygen(obj = IPD2017, add_fields = "source")
+# sinew::makeOxygen(obj = ImplictPriceDeflator, add_fields = "source")
 #' @title DATASET_TITLE
 #' @description DATASET_DESCRIPTION
 #' @format A data frame with 89 rows and 4 variables:
@@ -44,7 +44,7 @@
 #'   \item{\code{2017 Base}}{double COLUMN_DESCRIPTION} 
 #'}
 #' @source \url{http://somewhere.important.com/}
-"IPD2017"
+"ImplictPriceDeflator"
 
 ######Imports#####
 
