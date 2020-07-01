@@ -1,5 +1,6 @@
 library(readr)
 library(readxl)
+library(devtools)
 
 ####LOAD DATA#####
 
@@ -32,6 +33,7 @@ names(Comm.Catch.Data)[3]<-"Species"
 Comm.Catch.Data$Species<-trimws(as.character(Comm.Catch.Data$Species))
 Comm.Catch.Data$Pounds<-as.numeric(gsub(pattern = ",",replacement = "", x = Comm.Catch.Data$Pounds))
 Comm.Catch.Data$Dollars<-as.numeric(gsub(pattern = ",",replacement = "", x = Comm.Catch.Data$Dollars))
+Comm.Catch.Data$Year<-as.numeric(Comm.Catch.Data$Year)
 
 #######***Catch Regional#################
 
@@ -865,6 +867,7 @@ usethis::use_data(
   Comm.Catch.Species.Ex,
   Comm.Catch.Spp.df,
   Comm.Catch.Spp.List.National,
+  Comm.Catch.Spp.List,
   Comm.Catch.Spp.List.NE,
 
   #######***Species Recreational####
