@@ -18,7 +18,7 @@ Comm_Imports_Edit <- function(Imports.Species,
                               ImplictPriceDeflator) {
   
   
-  Imports.States$Imports <- Imports.States$Imports * funct_IPDCalc(YearIn = YearIn.Imports,
+  Imports.States$Imports <- Imports.States$Imports * IPDCalc(YearIn = YearIn.Imports,
                                                                    YearOut = YearIn.Mult,
                                                                    ImplictPriceDeflator = ImplictPriceDeflator)
   

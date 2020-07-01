@@ -71,7 +71,7 @@ Comm_Out <- function(Comm.Catch.Clean,
   
   #####***Harvestors
   IPD <-
-    funct_IPDCalc(
+    IPDCalc(
       YearIn = YearIn,
       YearOut = YearIn.Mult,
       ImplictPriceDeflator = ImplictPriceDeflator
@@ -396,7 +396,7 @@ Comm_Out <- function(Comm.Catch.Clean,
   #convert values from multiplyer YearIn number to the year you actualy want to output to (YearOut)
   for (i in which(names(Comm.Data) %in% c("PII_DirImp")):which(names(Comm.Data) %in% c("VA_Tot"))) {
     IPD <-
-      funct_IPDCalc(YearIn = YearIn.Mult,
+      IPDCalc(YearIn = YearIn.Mult,
                     YearOut = YearOut,
                     ImplictPriceDeflator)
     Comm.Data[, i] <-
