@@ -47,7 +47,7 @@ Comm_Out <- function(Comm.Catch.Clean,
   
   ############***Product Flow
   #US
-  Harv.row <- "Landings/harvesters:  All species in US"
+  Harv.row <- "Landings/harvesters: All species in US" 
   Whole.row <- "Primary wholesalers/processors: shrimp--US"
   Retail.row <- "Secondary wholesalers/distributors--US"
   if (st %in% c("CT", "FL", "HI", "ME", "NJ", "NY", "RI", "SC")) {
@@ -60,9 +60,9 @@ Comm_Out <- function(Comm.Catch.Clean,
     Whole.row <- "Primary wholesalers/processors:  Alaska"
     Retail.row <- "Secondary wholesalers/distributors:  Alaska"
   } else if (!(st %in% "AK")) {
-    Whole.row <- "Primary wholesalers/processors:  States except Alaska"
+    Whole.row <- "Primary wholesalers/processors: States except Alaska"
     Retail.row <-
-      "Secondary wholesalers/distributors:  States except Alaska"
+      "Secondary wholesalers/distributors: States except Alaska"
   }
   
   
@@ -397,8 +397,8 @@ Comm_Out <- function(Comm.Catch.Clean,
   for (i in which(names(Comm.Data) %in% c("PII_DirImp")):which(names(Comm.Data) %in% c("VA_Tot"))) {
     IPD <-
       IPDCalc(YearIn = YearIn.Mult,
-                    YearOut = YearOut,
-                    ImplictPriceDeflator)
+              YearOut = YearOut,
+              ImplictPriceDeflator)
     Comm.Data[, i] <-
       Comm.Data[, i] * ifelse(YearOut < YearIn.Mult, 1 / IPD, IPD)
   }
@@ -534,3 +534,4 @@ Comm_Out <- function(Comm.Catch.Clean,
   return(Out)
   
 }
+
