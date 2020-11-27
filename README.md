@@ -1,6 +1,24 @@
 # FishEconImpacts
 
-Calculates the economic impacts (sales, income, value added, and jobs) of Fisheries for the US and different states. 
+> Code is still in development
+
+Calculates the economic impacts (sales, income, value added, and jobs) of Fisheries for the US and different states. The content of this tool is included in the first table of the Fisheries Economics of the US, 2018 Commerical Section. 
+
+Main website: https://www.fisheries.noaa.gov/national/sustainable-fisheries/fisheries-economics-united-states
+
+Code was origionally developed by: 
+**Emily Markowitz**<sup>1</sup> (Emily.Markowitz AT noaa.gov)
+
+And has since been maintianed and updated by:
+**Alex Richardson**<sup>2</sup> (Alex.Richardson AT noaa.gov)
+
+<sup>1</sup>Alaska Fisheries Science Center, National Marine
+Fisheries Service, National Oceanic and Atmospheric Administration,
+Seattle, WA 98195
+
+<sup>2</sup>Environmental Policy Analyst, Contractor with ECS Federal in support of
+NOAA Fisheries Office of Science and Technology, Economics & Social Analysis Division, 
+Silver Spring, MD 20910
 
 ## NOAA README
 
